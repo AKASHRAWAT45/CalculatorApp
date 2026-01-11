@@ -17,5 +17,13 @@ namespace CalculatorApp.Tests
             // Assert
             Assert.Equal(5, result);
         }
+        
+        [Fact]
+        public void Multiply_TwoNumbers_ReturnsProduct()
+        {
+            var calc = new Calculator();
+            int result = calc.Multiply(2, 4);
+            Assert.Equal(8, result);
+        }
     }
 }

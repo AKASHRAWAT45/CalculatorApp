@@ -8,7 +8,7 @@ namespace CalculatorApp.Tests
         [Fact]
         public void CItriggertest()
         {
-            Console.WriteLine("CI trigger test");
+            Console.WriteLine("CI trigger test2");
         }
         [Fact]
         public void Add_TwoNumbers_ReturnsSum()
